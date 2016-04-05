@@ -1,0 +1,95 @@
+body{
+  background-color: #1f1f2e
+}
+
+.header {
+  background-color: #1f1f2e;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;;
+  font-family: Helvetica;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: inline-block;;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 18px;
+  text-shadow: 0px 3px 10px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  float: left;
+  margin-left: 20px;
+}
+
+.button:hover {
+  background: #2588c2;
+  background-image: linear-gradient(to bottom, #2588c2, #122b73);
+  text-decoration: none;
+}
+
+.selected {
+  background: #2588c2;
+  background-image: linear-gradient(to bottom, #2588c2, #122b73);
+  text-decoration: none;
+}
+
+img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  height: 388px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
+}
+
+.movie {
+  background-color: blanchedalmond;
+  background-color: rgba(0,0,0,.25);
+  background-image: url(http://ia.media-imdb.com/images/M/MV5BMTkzODczMTgwM15BMl5BanBnXkFtZTYwNTAwODI5._V1_SX300.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  text-align: center;
+
+}
+
+.container {
+  background-color: #00004d;
+  align-items: center;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin:auto;
+  color: white;
+  font-family: helvetica;
+  text-shadow: 2px 2px black;
+}
+
+.plot {
+  width: 40%;
+  text-align: center;
+  margin:auto;
+  opacity: .7;
+  background-color: #1f1f2e;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+#search {
+   float:right;
+   padding-right: 20px;
+ }

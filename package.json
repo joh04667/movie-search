@@ -1,0 +1,23 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "server for my movie thing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joh04667/movie-search.git"
+  },
+  "author": "kyle yo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joh04667/movie-search/issues"
+  },
+  "homepage": "https://github.com/joh04667/movie-search#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
