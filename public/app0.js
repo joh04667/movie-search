@@ -54,7 +54,7 @@ function clear() {
     $('#three').on('click', function() {
       clear();
       $(this).addClass('selected');
-      getData('http://www.omdbapi.com/?t=lion+king&y=&plot=short&r=json');
+      getData('http://www.omdbapi.com/?t=the+fellowship+of+the+ring&y=&plot=short&r=json');
     });
 
 
