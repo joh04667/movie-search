@@ -17,6 +17,7 @@ function addMovie() {
   var title = "<h2>" + data.Title + "</h2>";
   var year = "<h3>" + data.Year + "</h3>";
   var plot = "<p>" + data.Plot + "</p>";
+  $('.movie').css({"background-image": "url(" + data.Poster + ")"});
   $('.movie').append(img + "<div class='plot'>" + title + year + plot + "</div>");
 }
 

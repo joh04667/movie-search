@@ -1,12 +1,16 @@
 .header {
   background-color: grey;
   text-align: center;
+  align-items: center;
+  display: flex;
 }
 
 h1 {
   display: inline-block;
   text-align: center;;
-  font-family: Helvetica
+  font-family: Helvetica;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -21,6 +25,8 @@ h1 {
   padding: 10px 20px 10px 20px;
   border: solid #1f628d 2px;
   text-decoration: none;
+  float: left;
+  margin-left: 7px;
 }
 
 .button:hover {
@@ -40,14 +46,26 @@ img {
   transition: opacity .25s ease-in-out;
   height: 388px;
   margin-top: 15px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
 }
 
 .movie {
   background-color: blanchedalmond;
-  /*background-image: url(http://ia.media-imdb.com/images/M/MV5BMTkzODczMTgwM15BMl5BanBnXkFtZTYwNTAwODI5._V1_SX300.jpg);*/
+  background-color: rgba(0,0,0,.25);
+  background-image: url(http://ia.media-imdb.com/images/M/MV5BMTkzODczMTgwM15BMl5BanBnXkFtZTYwNTAwODI5._V1_SX300.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
   text-align: center;
+
 }
 
 .plot {
   background-color: green;
 }
+
+#search {
+   float:right;
+   padding-right: 20px;
+ }
