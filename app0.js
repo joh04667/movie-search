@@ -18,7 +18,7 @@ function addMovie() {
   var year = "<h3>" + data.Year + "</h3>";
   var plot = "<p>" + data.Plot + "</p>";
   $('.movie').css({"background-image": "url(" + data.Poster + ")"});
-  $('.movie').append(img + "<div class='plot'>" + title + year + plot + "</div>");
+  $('.movie').append(img + "<div class='container'><div><div class='plot'>" + title + year + plot + "</div>");
 }
 
 // gets data for movie search and replaces whitespace
